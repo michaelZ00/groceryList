@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- we can put the JS in the head when we using the defer so it will delay the use of
+    the JS file -->
+    <script defer src="source.js" ></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="box">grocery List</h1>
+    <div class="box">
+        <input id="input" placeholder="add-item" value="a">
+        <button class="box" onclick="addProduct()">add to cart</button>
+    </div>
+    <main>
+        <ul id="wife-list" class="box">
+        </ul>
+    </main>
+</body>
+</html>
